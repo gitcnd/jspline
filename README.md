@@ -13,7 +13,7 @@ J-Splines are awesome: they're a class of spline curves that take a shape parame
 # Synopsis
 
 ```python
-import jspline
+from jspline import jspline
 interpolated_results=jspline.make(subdivision_level, a, b, end_type, [xarray, ...])
 ```
 where
@@ -28,7 +28,7 @@ end_type is how you want to deal with the start and end points:
 # Example
 
 ```python
-import jspline
+from jspline import jspline
 js=jspline.make(1,0,0, 0 ,[[1, 2, 4, 5]])    # returns 1,2,3,4,5
 # or
 x=[ 50 ,250, 250, 50 ]

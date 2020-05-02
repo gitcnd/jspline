@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='jspline',
-    version='1.0.0',
+    version='1.0.2',
     description='Multi-dimensional parameterized spline curves (snappiness parameter gives uniform cubic B-splines, four-point subdivision splines, uniform quintic B-splines, and everything in-between)',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
