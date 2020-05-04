@@ -9,3 +9,6 @@
 
 ## [1.0.2] - 2020-05-02
 - Improved doc.
+
+## [1.0.3] - 2020-05-04
+- Correct endpoint clamping to create closed output shapes when input shape was closed
